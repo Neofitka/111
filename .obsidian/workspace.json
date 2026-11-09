@@ -4,20 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6a230fa229ced45b",
+        "id": "3ac0e29f1106ed3f",
         "type": "tabs",
         "children": [
           {
-            "id": "32e2b69d1b33c4dd",
+            "id": "74110ad9e65c6f32",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Без названия 1.base",
-                "viewName": "представление"
+                "file": "Занятие от 09.11.2026.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "Без названия 1"
+              "icon": "lucide-file",
+              "title": "Занятие от 09.11.2026"
             }
           }
         ]
@@ -187,10 +188,11 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "32e2b69d1b33c4dd",
+  "active": "74110ad9e65c6f32",
   "lastOpenFiles": [
-    "Без названия 1.canvas",
+    "Занятие от 09.11.2026.md",
     "Без названия 1.base",
+    "Без названия 1.canvas",
     "2026-11-09.md",
     "Без названия.canvas",
     "Без названия.base",
