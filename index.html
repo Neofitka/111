@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Петрова Вероника Павловна — Ведущий разработчик-аналитик 1С</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Фоновые декоративные элементы -->
+    <div class="bg-decoration">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- Переключатель темы -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Переключить тему">
+        <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path>
+        </svg>
+        <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+    </button>
+
+    <main class="container">
+        <!-- HERO -->
+        <section class="hero reveal">
+            <div class="hero-badge">Открыта к предложениям</div>
+            <h1 class="hero-name">Петрова Вероника Павловна</h1>
+            <p class="hero-title">Ведущий разработчик-аналитик <span class="accent">1С</span></p>
+            <p class="hero-subtitle">Эксперт по автоматизации бухгалтерского учёта · Сертификат «1С:Специалист»</p>
+            
+            <div class="hero-meta">
+                <div class="meta-item">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                    <span>Тула · Рязань · Remote</span>
+                </div>
+                <div class="meta-item">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                    <a href="tel:+79106554433">+7 (910) 655-44-33</a>
+                </div>
+                <div class="meta-item">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                    <a href="mailto:v.petrova@yandex.ru">v.petrova@yandex.ru</a>
+                </div>
+            </div>
+
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-value" data-target="15">0</div>
+                    <div class="stat-label">лет в учёте</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value" data-target="10">0</div>
+                    <div class="stat-label">лет в аналитике</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value" data-target="5">0</div>
+                    <div class="stat-label">компаний на аутсорсе</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value" data-target="4">0</div>
+                    <div class="stat-label">системы налогообложения</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- О СЕБЕ -->
+        <section class="section reveal">
+            <h2 class="section-title">О себе</h2>
+            <div class="glass-card">
+                <p class="lead">
+                    Сертифицированный специалист <strong>«1С:Специалист»</strong> с уникальным сочетанием компетенций: 
+                    глубокое знание методологии бухгалтерского и налогового учёта (ОСНО, УСН, Патент, ФСБУ) 
+                    и подтверждённые навыки разработки на платформе <strong>1С:Предприятие 8.3</strong>.
+                </p>
+                <p>
+                    Более 15 лет опыта в финансово-учётной сфере (в т.ч. в роли главного бухгалтера) и 10 лет 
+                    опыта в системном анализе бизнес-процессов. С 2022 года применяю навыки программирования 
+                    для создания методологически выверенных, высокопроизводительных решений в 1С.
+                </p>
+                <p class="highlight">
+                    «Умею говорить с бизнесом на языке учёта, а с разработчиками — на языке архитектуры».
+                </p>
+            </div>
+        </section>
+
+        <!-- КОМПЕТЕНЦИИ -->
+        <section class="section reveal">
+            <h2 class="section-title">Ключевые компетенции</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">⚙️</div>
+                    <h3>Платформа 1С</h3>
+                    <p>1С:Бухгалтерия 3.0, 1С:ERP 2.5, 1С:ЗУП 3.1, 1С:УТ 11. Управляемые формы, СКД, БСП, расширения конфигурации.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🔗</div>
+                    <h3>Интеграции</h3>
+                    <p>HTTP/REST-сервисы, EnterpriseData, API банков, ЭДО (Диадок, СБИС), ФГИС «Честный ЗНАК», Меркурий, маркетплейсы.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📊</div>
+                    <h3>Бухгалтерия и учёт</h3>
+                    <p>Полный цикл закрытия периода, НДС, регламентированная отчётность, ФСБУ 6/2020, 14/2020, 25/2018.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🎯</div>
+                    <h3>Системный анализ</h3>
+                    <p>Сбор требований, ТЗ по ГОСТ, моделирование BPMN, прототипирование, приёмочное тестирование.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🚀</div>
+                    <h3>Производительность</h3>
+                    <p>Оптимизация запросов, работа с индексами, устранение блокировок, ускорение закрытия периода.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🛠️</div>
+                    <h3>Инструменты</h3>
+                    <p>1С:EDT, Git (GitLab/GitHub), CI/CD, Vanessa-Automation, PostgreSQL, MS SQL.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ОПЫТ -->
+        <section class="section reveal">
+            <h2 class="section-title">Опыт работы</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Ведущий разработчик-аналитик 1С</h3>
+                                <p class="company">ООО «НТЦ Спектр»</p>
+                            </div>
+                            <span class="timeline-date">2022 — наст. время</span>
+                        </div>
+                        <ul class="responsibilities">
+                            <li>Проектирование и разработка доработок 1С:Бухгалтерия 3.0 и 1С:ERP под требования ФСБУ и НК РФ.</li>
+                            <li>Разработка сложных отчётов на СКД и внешних обработок для закрытия месяца.</li>
+                            <li>Настройка интеграций с банком, ЭДО и маркетплейсами.</li>
+                            <li>Аудит баз данных, оптимизация запросов, ускорение закрытия периода.</li>
+                            <li>Ревью кода на предмет корректности проводок и регистров.</li>
+                        </ul>
+                        <div class="achievements">
+                            <strong>Достижения:</strong>
+                            <ul>
+                                <li>Внедрена подсистема контроля ФСБУ 6/2020 и 14/2020 — ошибки при закрытии снижены на 90%.</li>
+                                <li>Получен сертификат «1С:Специалист».</li>
+                                <li>Время формирования отчётности сокращено с 4 часов до 15 минут.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Системный аналитик</h3>
+                                <p class="company">ООО «НТЦ Спектр»</p>
+                            </div>
+                            <span class="timeline-date">2016 — 2021</span>
+                        </div>
+                        <ul class="responsibilities">
+                            <li>Обследование финансово-хозяйственной деятельности заказчиков.</li>
+                            <li>Формализация требований и разработка ТЗ для команды 1С.</li>
+                            <li>Моделирование процессов «AS IS» / «TO BE», инструкции для пользователей.</li>
+                            <li>Приёмочное тестирование на соответствие методологии учёта.</li>
+                        </ul>
+                        <div class="achievements">
+                            <strong>Достижения:</strong>
+                            <ul>
+                                <li>Проведено обследование и подготовлены ТЗ для миграции 3 крупных производственных предприятий на 1С:ERP.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Главный бухгалтер</h3>
+                                <p class="company">ООО «Вектор» + аутсорсинг</p>
+                            </div>
+                            <span class="timeline-date">2007 — 2016</span>
+                        </div>
+                        <ul class="responsibilities">
+                            <li>Организация и ведение бухгалтерского и налогового учёта компании с нуля.</li>
+                            <li>Внедрение учётной политики, настройка рабочего места в 1С.</li>
+                            <li>Прохождение камеральных и выездных налоговых проверок.</li>
+                        </ul>
+                        <div class="achievements">
+                            <strong>Параллельно (2010–2021):</strong>
+                            <p>Главный бухгалтер на аутсорсинге для 5 организаций с ОСНО, УСН, Патент. 
+                            Глубокое погружение в типовые и нетиповые сценарии учёта в 1С.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ОБРАЗОВАНИЕ -->
+        <section class="section reveal">
+            <h2 class="section-title">Образование и сертификация</h2>
+            <div class="education-grid">
+                <div class="edu-card glass-card">
+                    <div class="edu-year">2006</div>
+                    <h3>РГРТА (Рязань)</h3>
+                    <p class="edu-degree">Специалитет · Инженер АСУ</p>
+                    <p>Автоматизированные системы управления</p>
+                </div>
+                <div class="edu-card glass-card">
+                    <div class="edu-year">2022</div>
+                    <h3>Академия TOP</h3>
+                    <p class="edu-degree">Профпереподготовка</p>
+                    <p>Разработчик 1С:Предприятие 8</p>
+                </div>
+                <div class="edu-card glass-card featured">
+                    <div class="edu-year">2023</div>
+                    <h3>1С:Специалист</h3>
+                    <p class="edu-degree">Профессиональный сертификат</p>
+                    <p>Фирма «1С» · Аттестационный центр</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- КОНТАКТЫ -->
+        <section class="section reveal">
+            <h2 class="section-title">Связаться со мной</h2>
+            <div class="contact-card glass-card">
+                <p>Готова обсудить проекты по автоматизации учёта, разработке и аналитике 1С.</p>
+                <div class="contact-buttons">
+                    <a href="tel:+79106554433" class="btn btn-primary">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                        Позвонить
+                    </a>
+                    <a href="mailto:v.petrova@yandex.ru" class="btn btn-secondary">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                        Написать на почту
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>© 2026 Петрова В.П. · Резюме сгенерировано для поиска работы</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
